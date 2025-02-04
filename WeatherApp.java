@@ -5,7 +5,7 @@ import java.net.URL;
 import org.json.JSONObject;
 
 public class WeatherApp {
-    private static final String API_KEY = "818e72ff3dfaa3b257d747b5b9f933b2"; // Replace with your actual API key
+    private static final String API_KEY = "818e72ff3dfaa3b257d747b5b9f933b2"; 
     private static final String CITY = "Delhi";
     private static final String URL_STRING = "https://api.openweathermap.org/data/2.5/weather?q=" + CITY + "&appid=" + API_KEY + "&units=metric";
 
